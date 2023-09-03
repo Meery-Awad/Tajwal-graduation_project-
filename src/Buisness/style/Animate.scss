@@ -1,0 +1,226 @@
+@keyframes left-to-right-animate {
+    0% {
+        top: -60px;
+        left: 0px;
+    }
+
+    50% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+@keyframes top-to-bottom-animate {
+    0% {
+        left: 0px;
+        top: -50px;
+    }
+
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+}
+@keyframes profile-img-animate {
+    0% {
+        left: -40px;
+        top: -50px;
+    }
+
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-color: hsl(190, 15%, 72%);
+    }
+
+    100% {
+        background-color: hsl(200, 20%, 95%);
+    }
+}
+
+.skeleton {
+    opacity: .7;
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.skeleton-text {
+    width: 100%;
+    height: .6rem;
+    margin-bottom: .4rem;
+    border-radius: .125rem;
+}
+
+.skeleton-text:last-child {
+    margin-bottom: 0;
+    width: 80%;
+}
+
+.skeleton-product-title{
+    width: 60%;
+    height: .9rem;
+    margin-bottom: 2em;
+    border-radius: .150rem;
+}
+
+.skeleton-product-icon{
+    width: 15%;
+    height: 1rem;
+    margin-top: 2em;
+    margin-bottom: -2em;
+    border-radius: .250rem;
+}
+.list-items-load{
+    display: none;
+}
+.skeleton-todo-load{
+    display: block;
+}
+.skeleton-comment{
+    border: none;
+}
+/*.grid-animate{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    padding: 1rem;
+}*/
+
+.card-animate {
+    background-color: white;
+    box-shadow: rgba( 0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.header-animate {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.header-img-animate {
+    width: 100%;
+    height: 40%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+/*.header-img-animate {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}*/
+
+.title-animate{
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    word-wrap: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+/* ************* Filter Items SKELETON ************* // */
+
+.list-filter-by-load{
+    display: none;
+}
+.skeleton-filter-by-load{
+    display: inline;
+}
+
+/* ************* Item Interface SKELETON ************* // */
+
+.skeleton-comment-name{
+    height: 2em;
+    margin-bottom: 1em;
+    margin-top: .4em;
+    border-radius: .3rem;
+}
+.skeleton-item-name{
+    width: 20px;
+    height: .8rem;
+}
+.skeleton-text-details {
+    width: 90%;
+    height: .8rem;
+    margin-bottom: .5rem;
+    border-radius: .125rem;
+}
+.skeleton-text-details:last-child {
+    width: 50%;
+}
+.skeleton-item-comments-load{
+    display: block;
+}
+.list-item-comments-load{
+    display: none;
+}
+.skeleton-item-details-load{
+    display: block;
+}
+.list-item-details-load{
+    display: none;
+}
+.skeleton-item-album-load{
+    display: flex;
+}
+.list-item-album-load{
+    display: none;
+}
+.skeleton-similar-meal{
+    cursor: default;
+    &:hover {
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    }
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.skeleton-similar-meal .div-over-similar-meal{
+    height: 3em;
+    width: 100%;
+    background-color: #888;
+}
+.skeleton-similar-meal-load{
+    display: block;
+}
+.list-similar-meal-load{
+    display: none;
+}
+
+
+/* ************* Notification SKELETON ************* // */
+.skeleton-text-notif {
+    width: 80%;
+    height: .6rem;
+    margin-bottom: .4rem;
+    border-radius: .125rem;
+}
+
+.skeleton-text-notif:last-child {
+    margin-bottom: 0;
+    width: 50%;
+}
+.skeleton-notification-load{
+    display: flex;
+}
+.list-notification-load{
+    display: none;
+}
+
+/* ************* Feedbacks SKELETON ************* // */
+.skeleton-feedback-load{
+    display: flex;
+}
+.list-feedback-load{
+    display: none;
+}

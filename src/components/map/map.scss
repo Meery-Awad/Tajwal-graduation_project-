@@ -1,0 +1,213 @@
+// -------------------------------------Map-----------------------------------------------
+@import '../map/infoOfLocation/infOfLoc.scss';
+
+$ml:1%;
+$mt:1px;
+
+  
+.Fltera{
+ 
+    z-index: 1;
+  
+}
+
+
+.GoogleMap{
+   
+  position: absolute;
+    margin-left: $ml - 1;
+    margin-top: $mt - 20px   ;
+    width: 100%;
+    // opacity: 0.8;
+    height: 550px ;
+    z-index: 0;
+   
+}
+
+.Filter-list{
+  
+    direction: rtl;
+    position: absolute;
+    margin-top:$mt;
+    margin-left:$ml +77.2%;
+    z-index: 1;
+    color: $item-color;
+    background-color: $filter-bg-color;
+    width: 295px;
+    // padding-left: 140px;
+   cursor: pointer;
+   z-index: 0;
+   height: 530px;
+}
+$Filter:1em;
+.Filter-item{
+    display: flex;
+    margin-top:5px;
+    color: rgb(228, 226, 226);
+    font-size:$Filter;
+   
+}
+.Filter-list a{
+color:$item-color;    
+}
+
+.Filter-list a:hover,.Filter-list a:focus{
+    color: $item-color;
+}
+.Filter-item .linkApp{
+    position: absolute;
+    color: $second-color;
+    margin-top: 5px;
+}
+
+.Filtra{
+    display: inline-block;
+font-size: $Filter + 0.3 ;
+margin:10px 38px;
+color:$item-color1;
+border-bottom: 0.1em solid $first-color;
+padding: 0px;
+padding-bottom: 15px;
+ 
+width: auto;
+
+
+}
+.Filter1{
+    display: flex;
+}
+.product{
+    margin-top:8px;
+    margin-left: 20px;
+    
+}
+.shorPath{
+    margin-left: -14px;
+    margin-top:8px;
+}
+.rate{
+    margin-left: -4px;
+}
+.chat{
+    margin-left: 10px;
+}
+
+.Filter-list .fa , .fas{
+    margin-left: 13px;
+}
+.resAndclo{
+    width:500px;
+    margin: 22px 70px;
+    font-size: 13px;
+    color:$item-color1
+}
+.fil1.fas.fa-tshirt,.fil1.fa.fa-cutlery{
+   
+    background-color: $first-color;
+    color:$item-color1;
+    font-size: 15px;
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    padding:7px 4px;
+    box-shadow: 2px 2px 3px  #888;
+   
+   
+}
+.fil1.fas.fa-tshirt:hover,.fil1.fa.fa-cutlery:hover{
+    box-shadow: 2px 2px 10px  #888;
+    cursor: pointer;
+    
+}
+.fil1.fa.fa-cutlery{
+    padding:7px ;
+   
+}
+.fil1.fas.fa-tshirt{
+    margin-right: 40px;
+}
+.clo{
+    margin-right: 45px;
+}
+.res{
+    margin-right: -5px;
+}
+
+.dropDown{
+   
+    margin:10px 30px;
+  width:200px;
+  height: 20px;
+  padding-left: 175px;
+  padding-top:0px;
+  color:$second-color;
+ 
+    
+}
+.theProd{
+    position: absolute;
+    font-size: 13px;
+    right: 60px;
+    top:10px;
+    color:rgb(26, 25, 25);
+}
+.prodDis{
+    direction: ltr;
+}
+.menu{
+    direction: rtl;
+    text-align: right;
+    font-size: 13px;
+   max-height: 240px;
+   max-width: 100px;
+   
+ 
+  
+}
+.menu-item{
+    margin-top: -2px;
+    text-overflow: ellipsis;
+ overflow: hidden;
+ white-space: nowrap;
+ width:100%;
+ 
+    
+}
+.menu-item:hover {
+    background-position: right bottom;
+    font-size: 13.5px;
+    overflow:visible;
+   border-radius: 5px;
+    width:auto;
+    white-space: nowrap;
+  
+  
+  }
+.menu .fa, .menu .fas{
+    margin-top: 10px;
+    
+}
+.location{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 20%;
+    // margin-left: -50%;
+    position: absolute;
+    background-color:#47A851;
+}
+
+
+.prodNumber{
+     position:absolute;
+     left: 5%;
+     margin-top: 4.2%;
+   
+   
+}
+.prodType{
+position: relative;
+ margin-right: -4px;
+ 
+
+}

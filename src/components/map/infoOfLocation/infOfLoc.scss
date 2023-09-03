@@ -1,0 +1,202 @@
+
+$text-color:rgb(29, 29, 29);
+$text-color1:#525151;
+$first-color:#47A851;
+$second-color:#8cb590;
+$item-color3:#f0efef;
+$item-color4:rgb(20,20,20);
+$nav-bg-color:rgb(29, 29, 29);
+$font-item:Roboto;
+$font-item1:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$dropDown-color:rgb(236, 235, 235);
+$icon-color: rgb(104, 104, 104);
+
+//map
+$filter-bg-color:rgb(36, 36, 36);
+$item-color:#787878;
+$item-color1:rgb(228, 226, 226);
+$nav-color:#FFFFFF;
+
+//TodoItem
+$item-color2:#000;
+$like:#1c5ee2;
+
+
+
+// ---------------------------info--------------------------------------
+// .results{
+   
+//     position: absolute;
+//     margin: 20% 65%;
+//     font-size: 30px;
+//     color: #1f1e1e;
+//     text-align: left;
+// }
+@mixin btnHover(){
+    color: $nav-color;
+    background-color: $first-color;
+    border:1px solid $nav-color;
+    
+   
+    
+ }
+@mixin btn(){
+   background-color: $nav-color;
+   color: $first-color;
+  
+ 
+   
+}
+@mixin DisHover(){
+    position: fixed;
+    background-color: #c8c8c8;
+    width: 20%;
+    white-space: pre-wrap;
+    text-align: right;
+    direction: rtl;
+    border-radius:13px ;
+    padding-right:8px;
+    padding-bottom: 5px;
+    border-bottom-right-radius: 0px;
+    margin-left:   0px ;
+    display: none;
+    
+ }
+ @mixin overFlowText(){
+ text-overflow: ellipsis;
+ overflow: hidden;
+ white-space: nowrap;
+ direction: rtl;
+ cursor: pointer;
+ }
+ $mrginTopOfInfo:77%;
+ $mrginRightOfInfo:23%;
+// .infoOfLoc{
+//      position:absolute;
+//     margin:$mrginTopOfInfo $mrginLeftOfInfo ;
+//     width:27%;
+//     height: 105px;
+//     background-color: $nav-color;
+//     border-radius: 18px;
+//     z-index: 1;
+  
+    
+// }
+$pt:5px;
+.infoLoc{
+    text-align: right;
+    padding-right: 62px;
+    padding-top:$pt;
+    font-size: 12px;
+    color: $text-color1;
+    justify-items: right;
+    z-index: 1;
+   
+    
+}
+$imgWidth:35px;
+$imgHeight:35px;
+.circle{
+    position: absolute;
+    margin: 2% 82.6%;
+    width:$imgWidth+4;
+    height: $imgHeight+7;
+    border: 2px solid $first-color;
+    border-radius: 50%;
+    padding: 0px;
+    border-left:none;
+}
+.infoLoc.photoOfLoc{
+position: absolute;
+margin: 3% 82.5%;
+width:$imgWidth;
+height: $imgHeight;
+border-radius: 50%;
+padding: 0px;
+cursor: pointer;
+
+}
+.infoLoc.nameOfLoc{
+    font-family: $font-item;
+    color: $text-color;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 2%;
+    cursor: pointer;
+
+}
+.infoLoc.typeOfLoc{
+    padding-top: 2px;
+}
+.infoLoc.placeOfLoc{
+    
+@include overFlowText;
+    padding-right: 77px;
+   
+  
+}
+
+
+.placeOfLocHover{
+ @include DisHover;
+
+}
+.info.fa.fa-map-marker{
+    position: absolute;
+    margin-top: -20.3px;
+    margin-left: 215px;
+    color:$first-color
+   
+}
+@mixin info{
+    width: 15px;
+    height: 15px;
+    font-size: 1px;
+    border-radius: 55px;
+    padding-left: 8px;
+}
+.info.fa.fa-cutlery{
+    color:$text-color1;
+    padding-right: 4px;
+    padding-top: 3px;
+    @include info;
+}
+.info.fa.fa-map-marker{
+   
+    @include info;
+    font-size: 15px;
+
+}
+.info.fa.fa-clock-o{
+ @include info;
+ font-size: 13px;
+ 
+   
+}
+.Follow{
+    position: absolute;
+    margin: -29.5% 10%;
+    font-size: 9px;
+    color:$text-color1;
+    border:1.5px solid $first-color;
+    width: 80px;
+    height: 16px;
+    padding-left: 25px; 
+    padding-bottom: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 6px 9px -5px rgba(0, 0, 0, 0.578);
+   
+   
+}
+.Follow:hover{
+    box-shadow: 0px 6px 10px -2px rgba(0, 0, 0, 0.578);
+   
+
+}
+.goToInfo{
+    display: none;
+}
+
+// ------------------------------------info--------------------------------------------
+

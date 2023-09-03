@@ -1,0 +1,184 @@
+@import '../map/infoOfLocation/infOfLoc.scss';
+
+.amazing_feature {
+  margin-top: -30px;
+}
+
+.amazing_feature h1,
+.amazing_feature h2 {
+  color: $first-color;
+}
+
+.amazing_feature a,
+.amazing_feature a:hover,
+.amazing_feature a:focus,
+.amazing_feature a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+.amazing_feature ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.amazing_feature .heading {
+  margin-top: 0px;
+  background-color: transparent;
+}
+
+.amazing_feature .separator {
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.amazing_feature .separator:after,
+.amazing_feature .separator:before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: $first-color;
+  top: 50%;
+
+}
+
+.amazing_feature .separator i {
+  color: $second-color;
+}
+
+.amazing_feature .separator:after {
+  right: 140%;
+}
+
+.amazing_feature .separator:before {
+  left: 140%;
+}
+
+.amazing_feature {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.amazing_feature .single_feature {
+  
+  
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 40px 40px;
+  height: 210px;
+  width: 350px;
+  direction: rtl;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  border: 1px solid $first-color ;
+}
+
+.amazing_feature .single_feature:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $first-color;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  text-overflow: ellipsis;
+}
+
+.amazing_feature .single_feature:hover,
+.amazing_feature .single_feature:focus,
+.amazing_feature .single_feature:active {
+  color: white;
+  
+}
+
+.amazing_feature .single_feature:hover:before,
+.amazing_feature .single_feature:focus:before,
+.amazing_feature .single_feature:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.feature_icon {}
+
+.amazing_feature .single_feature i {
+  border: 1px solid #e8e8e9;
+  border-radius: 50%;
+  color: #333;
+  float: right;
+  font-size: 20px;
+  height: 60px;
+  line-height: 60px;
+  margin-right: -15px;
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  width: 60px;
+  z-index: 3;
+  margin-top: 25px;
+}
+
+.amazing_feature .single_feature:hover i {
+  background: #fff;
+  border: 1px solid #fff;
+  color: $second-color;
+ 
+}
+
+.amazing_feature .single_feature h3 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+.amazing_feature .single_feature:hover h3 {
+  color: #fff;
+}
+
+.amazing_feature .single_feature span {
+  border-bottom: 1px dashed #ccc;
+  display: block;
+  margin: 15px auto 10px;
+  width: 80px;
+}
+
+.amazing_feature .single_feature p {
+  margin-bottom: 0;
+  height: 100%;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+}
+
+.amazing_feature h3,
+.amazing_feature h4,
+.amazing_feature h5,
+.amazing_feature h6 {
+  color: $second-color;
+}

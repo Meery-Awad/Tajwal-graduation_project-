@@ -1,0 +1,78 @@
+@import '../map/infoOfLocation/infOfLoc.scss';
+@import url('../../Buisness/style/Animate.scss');
+// -------------------------------------Map-----------------------------------------------
+$font-item:Roboto;
+$font-item1:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ $width:150px;
+ 
+.LikeProd{
+     position: relative;
+   margin-right: 20px;
+    direction: rtl;
+ 
+   
+}
+// .ConListLikeProd{
+//     display: flex;
+//     flex-flow: row wrap;
+//     direction: rtl;  
+//      width: $width * 7;
+//      padding-bottom: 10px;
+// }
+// .LikeProd .imgProd{
+//     width:$width;
+// }
+
+// .LikeProd .nameProd,.LikeProd .typeProd{
+//     font-size: 13px;
+//     text-align: right;
+//     font-family: $font-item1;
+//     margin-top: 2px;
+//     padding: 3px 7px;
+  
+   
+
+// }
+// .LikeProd .nameProd{
+//     font-weight: bold;
+// }
+// .LikeProd{
+//     margin-right:100px ;
+//     margin-top: 25px;
+//     height: 170px;
+//    box-shadow: 2px 3px 3px rgb(167, 166, 166);
+//    background-color: #F4F4F4;
+//    border: 1px solid rgb(201, 200, 200);
+//    cursor: pointer;
+// }
+// .LikeProd:hover{
+//    transform: scale(1.05);
+// }
+// .btnSeeMore{
+//     box-shadow: 2px 3px 3px $second-color ;
+//     display: block;
+//     flex-flow: nowrap
+
+
+// }
+
+// .btnSee:hover{
+//  font-size: 15px;
+//     }
+
+
+// Skeleton placeholder
+.skeleton-sugg-prod-load-profile{
+    display: block;
+}
+.prod-sugg-load-profile{
+    display: none;
+}
+.skeleton-text-sugg{
+    margin-bottom: .9em;
+    height: .7em;
+}
+.skeleton-text-sugg:last-child{
+    margin-bottom: .9em;
+}

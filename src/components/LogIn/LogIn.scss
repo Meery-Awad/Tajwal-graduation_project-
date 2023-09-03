@@ -1,0 +1,123 @@
+
+$nav-bg-color:rgb(29, 29, 29);
+$first-color:#47A851;
+$second-color:rgb(140, 181, 144);
+$nav-color:#FFFFFF;
+
+$fontSize:0.7em;
+
+
+// ---------------------------Navbar--------------------------------------
+
+.LogIn .dropdown-menu{
+    position: relative;
+   display: block;
+ margin:-2% -25%;
+ width: 280px;
+ 
+
+}
+
+.LogIn .or {
+    display: flex;
+    flex-direction: row;
+    margin: 5px auto;
+    font-size: 1.2em;
+   
+  }
+  .or:before, .or:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+   
+  }
+  .or:before {
+    margin-right: 5px;
+    margin-top:13px;
+  }
+  .or:after {
+    margin-left: 5px;
+    margin-top:13px;
+  }
+  .LogIn .btn{
+      width: 100%;
+      height: 4%;
+      font-size: $fontSize - 2;
+  }
+  .LogIn .btn:active,.LogIn .btn:focus{
+    box-shadow: none;
+    
+}
+  .LogIn .form-group{
+
+      font-size: $fontSize;
+  }
+  .LogIn .facebook{
+      background-color: #3D72A3;
+      color: white;
+      padding-right: 42px;
+     
+     
+  }
+  .LogIn .facebook:hover{
+    background-color: white;
+    color: #3D72A3;
+    padding-right: 42px;
+   border: 1px solid #3D72A3;
+   
+}
+
+  .LogIn .fa.fa-facebook
+  {
+    padding-right: 15px;
+  }
+  .LogIn .login{
+    background-color: $first-color;
+    color: white;
+    margin-top:15px;
+}
+
+ .LogIn .login:hover{
+    background-color:white ;
+    color: $first-color;
+    margin-top:15px;
+    border: 1px solid $first-color;
+}
+.LogIn .LoginBy{
+    margin-bottom: 15px;
+    margin-left: 13px;
+    font-size: $fontSize + 0.6;
+}
+.LogIn ::placeholder{
+    font-size: $fontSize - 1;
+  text-align: right;
+ 
+}
+.LogIn input{
+    height: 37px;
+    margin-top: 7px;
+    text-align: right;
+}
+.LogIn .fa.fa-eye-slash, .LogIn .fa.fa-eye {
+  position: absolute;
+  margin:-24px 7px ;
+  color:#888;
+}
+.LogIn .name{
+    color:rgb(97, 96, 96)
+}
+.LogIn .trin{
+    position: absolute;
+    top:-7px;
+  margin-left: 62%;
+    width: 0; 
+    height: 0; 
+    color: white;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    
+    border-bottom: 12px solid white;
+    
+
+}

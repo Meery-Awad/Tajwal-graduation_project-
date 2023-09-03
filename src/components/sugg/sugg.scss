@@ -1,0 +1,245 @@
+@import '../map/infoOfLocation/infOfLoc.scss';
+@import '../map/Shkoa/shkoa.scss';
+@import url(../../Buisness/style/Animate.scss);
+
+$width: 165px;
+
+.ContSugg {
+    direction: rtl;
+    margin-right: 25px;
+    margin-top: 5px;
+}
+
+.ContSugg .btnSeeMore {
+    position: relative;
+    justify-content: center;
+
+
+    font-size: 1em;
+    font-weight: 600;
+    height: 35px;
+    // margin-bottom: 10px;
+}
+.ContSugg{
+    border-bottom: 100px;
+}
+
+.ContSuggPages,
+.ContSuggProd {
+
+    display: flex;
+    flex-flow: row wrap;
+    direction: rtl;
+
+
+    padding-bottom: 10px;
+
+
+}
+
+.SuggPages .imgPage,
+.SuggProducts .imgProd {
+    width: $width  ;
+    height: 125px;
+    border-radius: 10px;
+}
+
+.SuggPages .imgPage {
+    width: $width - 2 ;
+}
+
+.SuggPages,
+.SuggProducts {
+    direction: rtl;
+    margin-right: 45px;
+    margin-top: 30px;
+    width:$width;
+    height: 220px;
+    font-size: 14px;
+    box-shadow: 2px 3px 3px rgb(167, 166, 166);
+    background-color: rgb(231, 231, 231);
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 10px;
+    color: #333;
+    cursor: pointer;
+
+}
+
+.SuggProducts {
+    margin-right: 48px;
+}
+
+.SuggPages:hover,
+.SuggProducts:hover {
+    transform: scale(1.05);
+    opacity: 0.99;
+
+}
+
+.SProd {
+    margin-top: 20px;
+}
+
+.SuggProducts {
+    height: 210px;
+
+}
+
+.SuggProducts,
+.SuggProducts .imgProd {
+    border-radius: 0px;
+}
+
+.SuggProducts .imgProd {
+    height: 210px;
+}
+
+.SuggPages .info {
+    // margin-right: 5px;
+    margin-top: 3px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 1.16em;
+    direction: rtl;
+
+}
+
+.SuggProducts .info {
+    position: absolute;
+    font-size: 1.16em;
+    background-color: rgba(51, 51, 51, 0.65);
+    margin-top: -90px;
+    width: $width ;
+    padding: 7px;
+    height: 90px;
+    color: rgb(246, 246, 246);
+    direction: rtl;
+
+
+
+}
+
+.SuggProducts .storeProd,
+.SuggProducts1 .storeProd {
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+
+}
+
+.SuggPages .ratePages,
+.SuggProducts .ratePages {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 2px;
+    font-size: 1em;
+    margin-right: 123px;
+    margin-top: 2px;
+    font-weight: 500;
+
+}
+
+// .SuggPages .ratePages {
+//     margin-right: 125px;
+// }
+
+.SuggPages .fa.fa-star,
+.SuggProducts .fa.fa-star,
+.SuggProducts1 .fa.fa-star {
+    color: rgb(231, 231, 33);
+    // box-shadow: 2px 3px 3px rgb(212, 214, 54);
+    background: none;
+    font-size: 14px;
+}
+
+.SuggPages .fa.fa-cutlery,
+.SuggPages .fas.fa-tshirt {
+    color: #888;
+    margin-left: 3px;
+}
+
+.SuggPages .fa.fa-map-marker {
+    color: $first-color;
+    margin-right: 2px;
+    font-size: 18px;
+}
+
+.SuggPages .namePages,
+.SuggProducts .nameProd {
+    font-weight: 650;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+
+
+}
+
+// .SuggProducts .typeProd{
+//     color: $first-color;
+// }
+.ContSugg .suggToday {
+    width: 97%;
+    display: flex;
+    // margin-right: 1%;
+    background-color: rgb(230, 230, 230);
+    font-size: 1.4em;
+    font-weight: 500;
+    padding: 35px 20px;
+    border-radius: 18px;
+    box-shadow: 2px 3px 3px rgb(167, 166, 166);
+
+}
+
+.ContSugg .thingToTry {
+    font-size: 19px;
+    font-weight: 600;
+    // margin-right: 1%;
+    padding-right: 20px;
+    margin-top: 28px;
+
+}
+
+.ContSugg .SmileSugg {
+    position: absolute;
+    width: 70px;
+    margin-right: 83%;
+    margin-top: -1%;
+
+
+}
+
+// Skeleton Placeholder
+.skeleton-sugg-load {
+    display: block;
+}
+
+.pages-sugg-load {
+    display: none;
+}
+
+.skeleton-sugg-prod-load {
+    display: block;
+}
+
+.prod-sugg-load {
+    display: none;
+}
+
+.skeleton-text-sugg {
+    margin-bottom: .9em;
+    height: .7em;
+}
+
+.skeleton-text-sugg:last-child {
+    margin-bottom: .9em;
+}
+
+.ContSugg p {
+    text-align: center;
+    margin-top: 15px;
+}

@@ -1,0 +1,319 @@
+.infoLoc {
+  text-align: right;
+  padding-right: 62px;
+  padding-top: 5px;
+  font-size: 12px;
+  color: #525151;
+  justify-items: right;
+  z-index: 1;
+}
+
+.circle {
+  position: absolute;
+  margin: 2% 82.6%;
+  width: 39px;
+  height: 42px;
+  border: 2px solid #47A851;
+  border-radius: 50%;
+  padding: 0px;
+  border-left: none;
+}
+
+.infoLoc.photoOfLoc {
+  position: absolute;
+  margin: 3% 82.5%;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.infoLoc.nameOfLoc {
+  font-family: Roboto;
+  color: rgb(29, 29, 29);
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+.infoLoc.typeOfLoc {
+  padding-top: 2px;
+}
+
+.infoLoc.placeOfLoc {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  direction: rtl;
+  cursor: pointer;
+  padding-right: 77px;
+}
+
+.placeOfLocHover {
+  position: fixed;
+  background-color: #c8c8c8;
+  width: 20%;
+  white-space: pre-wrap;
+  text-align: right;
+  direction: rtl;
+  border-radius: 13px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  border-bottom-right-radius: 0px;
+  margin-left: 0px;
+  display: none;
+}
+
+.info.fa.fa-map-marker {
+  position: absolute;
+  margin-top: -20.3px;
+  margin-left: 215px;
+  color: #47A851;
+}
+
+.info.fa.fa-cutlery {
+  color: #525151;
+  padding-right: 4px;
+  padding-top: 3px;
+  width: 15px;
+  height: 15px;
+  font-size: 1px;
+  border-radius: 55px;
+  padding-left: 8px;
+}
+
+.info.fa.fa-map-marker {
+  width: 15px;
+  height: 15px;
+  font-size: 1px;
+  border-radius: 55px;
+  padding-left: 8px;
+  font-size: 15px;
+}
+
+.info.fa.fa-clock-o {
+  width: 15px;
+  height: 15px;
+  font-size: 1px;
+  border-radius: 55px;
+  padding-left: 8px;
+  font-size: 13px;
+}
+
+.Follow {
+  position: absolute;
+  margin: -29.5% 10%;
+  font-size: 9px;
+  color: #525151;
+  border: 1.5px solid #47A851;
+  width: 80px;
+  height: 16px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 6px 9px -5px rgba(0, 0, 0, 0.578);
+}
+
+.Follow:hover {
+  box-shadow: 0px 6px 10px -2px rgba(0, 0, 0, 0.578);
+}
+
+.goToInfo {
+  display: none;
+}
+
+.Todo .ListItemsTodo {
+  position: absolute;
+  display: flex;
+  flex-flow: row nowrap;
+  top: 272%;
+  right: 22.5%;
+  direction: rtl;
+  z-index: 2;
+  transition: ease-out 0.6s;
+  width: 100%;
+  overflow: auto;
+}
+
+.prodCont {
+  margin-left: 5.5px;
+  background-color: rgb(253, 253, 253);
+  width: 270px;
+  height: 105px;
+  direction: rtl;
+  text-align: right;
+  border-radius: 15px;
+  margin-top: 1%;
+  border: 2px solid #8cb590;
+  box-shadow: 1px 3px 3px rgb(156, 156, 156);
+  z-index: 2;
+}
+
+.prod-list {
+  position: relative;
+  text-align: right;
+  font-size: 11.5px;
+  color: rgb(228, 226, 226);
+  z-index: 1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 2;
+}
+
+.prod-list.prodName {
+  position: absolute;
+  font-family: Roboto;
+  color: #000;
+  font-size: 15px;
+  margin: 9px 5px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  direction: rtl;
+  cursor: pointer;
+}
+
+.prod-list.prodImg {
+  width: 35px;
+  height: 35px;
+  margin: 2%;
+  box-shadow: 2px 2px 4px rgb(133, 132, 132);
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.prod-list.prodType {
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  direction: rtl;
+  cursor: pointer;
+  margin-top: -17px;
+  margin-right: 57px;
+  color: rgb(37, 37, 37);
+  cursor: pointer;
+}
+
+.prod-list.prodPrice {
+  position: relative;
+  background-color: #47A851;
+  border-radius: 10px;
+  padding: 0px 8px 1px;
+  top: 0px;
+  left: 1px;
+  font-size: 9px;
+}
+
+.prod-list.price {
+  position: relative;
+  margin-right: 57px;
+  color: rgb(37, 37, 37);
+}
+
+.prod-list.prodTypeHover {
+  position: fixed;
+  background-color: #c8c8c8;
+  width: 20%;
+  white-space: pre-wrap;
+  text-align: right;
+  direction: rtl;
+  border-radius: 13px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  border-bottom-right-radius: 0px;
+  margin-left: 0px;
+  display: none;
+  color: #525151;
+}
+
+.item {
+  position: absolute;
+  top: 73px;
+  display: flex;
+  transition: ease-out 0.6s;
+}
+
+.iconInteractions {
+  position: absolute;
+  margin-right: 135px;
+  font-size: 12px;
+  display: flex;
+  transition: ease-out 0.6s;
+  cursor: pointer;
+}
+
+.ListItemsTodo .fa.fa-thumbs-up, .ListItemsTodo .fa.fa-thumbs-down, .ListItemsTodo .fas.fa-comments {
+  width: 17px;
+  height: 17px;
+  background-color: white;
+  border-radius: 20%;
+  color: rgb(134, 132, 132);
+  padding: 2px;
+  box-shadow: 1px 1px 1px 1px rgba(199, 198, 198, 0.7);
+  transition: ease-out 0.1s;
+  z-index: 2;
+}
+
+.like {
+  position: absolute;
+  top: 16px;
+  text-align: center;
+  left: -146px;
+}
+
+.dislike {
+  position: absolute;
+  top: 16px;
+  text-align: center;
+  left: -197px;
+}
+
+.comment {
+  position: absolute;
+  top: 16px;
+  text-align: center;
+  left: -249px;
+}
+
+.inter {
+  position: relative;
+  border: 1px solid #8cb590;
+  margin-left: 35px;
+  font-size: 11.5px;
+  color: rgb(228, 226, 226);
+  margin-top: 3px;
+}
+
+.like, .dislike, .comment {
+  color: rgb(37, 37, 37);
+}
+
+.Noitem {
+  margin-left: 500px;
+}
+
+.Todo .carousel-control-prev-icon, .Todo .carousel-control-next-icon {
+  width: 20px;
+  position: absolute;
+  top: 410px;
+  cursor: pointer;
+  background-color: rgba(51, 51, 51, 0.8);
+}
+
+.Todo .carousel-control-prev-icon {
+  position: absolute;
+  left: 5px;
+  display: none;
+}
+
+.Todo .carousel-control-next-icon {
+  position: absolute;
+  left: -465px;
+  display: none;
+}/*# sourceMappingURL=Todoitem.css.map */

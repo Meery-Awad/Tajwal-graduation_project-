@@ -1,0 +1,193 @@
+.infoLoc {
+  text-align: right;
+  padding-right: 62px;
+  padding-top: 5px;
+  font-size: 12px;
+  color: #525151;
+  justify-items: right;
+  z-index: 1;
+}
+
+.circle {
+  position: absolute;
+  margin: 2% 82.6%;
+  width: 39px;
+  height: 42px;
+  border: 2px solid #47A851;
+  border-radius: 50%;
+  padding: 0px;
+  border-left: none;
+}
+
+.infoLoc.photoOfLoc {
+  position: absolute;
+  margin: 3% 82.5%;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.infoLoc.nameOfLoc {
+  font-family: Roboto;
+  color: rgb(29, 29, 29);
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+.infoLoc.typeOfLoc {
+  padding-top: 2px;
+}
+
+.infoLoc.placeOfLoc {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  direction: rtl;
+  cursor: pointer;
+  padding-right: 77px;
+}
+
+.placeOfLocHover {
+  position: fixed;
+  background-color: #c8c8c8;
+  width: 20%;
+  white-space: pre-wrap;
+  text-align: right;
+  direction: rtl;
+  border-radius: 13px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  border-bottom-right-radius: 0px;
+  margin-left: 0px;
+  display: none;
+}
+
+.info.fa.fa-map-marker {
+  position: absolute;
+  margin-top: -20.3px;
+  margin-left: 215px;
+  color: #47A851;
+}
+
+.info.fa.fa-cutlery {
+  color: #525151;
+  padding-right: 4px;
+  padding-top: 3px;
+  width: 15px;
+  height: 15px;
+  font-size: 1px;
+  border-radius: 55px;
+  padding-left: 8px;
+}
+
+.info.fa.fa-map-marker {
+  width: 15px;
+  height: 15px;
+  font-size: 1px;
+  border-radius: 55px;
+  padding-left: 8px;
+  font-size: 15px;
+}
+
+.info.fa.fa-clock-o {
+  width: 15px;
+  height: 15px;
+  font-size: 1px;
+  border-radius: 55px;
+  padding-left: 8px;
+  font-size: 13px;
+}
+
+.Follow {
+  position: absolute;
+  margin: -29.5% 10%;
+  font-size: 9px;
+  color: #525151;
+  border: 1.5px solid #47A851;
+  width: 80px;
+  height: 16px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 6px 9px -5px rgba(0, 0, 0, 0.578);
+}
+
+.Follow:hover {
+  box-shadow: 0px 6px 10px -2px rgba(0, 0, 0, 0.578);
+}
+
+.goToInfo {
+  display: none;
+}
+
+.policy {
+  text-align: center;
+}
+
+.policy h2 {
+  display: inline;
+  width: auto;
+  color: #47A851;
+  border-bottom: 2px solid #47A851;
+  padding-bottom: 10px;
+}
+
+.policy img {
+  margin-bottom: 25px;
+  display: block;
+  width: 100%;
+  height: 300px;
+  -webkit-filter: blur(1.1px);
+  z-index: 0;
+}
+
+.policy nav {
+  width: 98%;
+  border: 1px solid blue;
+  background-color: #66ccff;
+  padding: 15px;
+  text-decoration: none;
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+.policy nav a {
+  text-decoration: none;
+}
+
+.policy section {
+  margin-top: 25px;
+}
+
+.policy article {
+  width: 70%;
+  border: 1px solid #47A851;
+  background-color: #cccccc;
+  padding: 15px;
+  margin: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 22px;
+}
+
+.policy p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.policy #social {
+  width: 50%;
+  border: 1px solid blue;
+  background-color: #66ccff;
+  padding: 15px;
+  margin: 25%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  font-size: 30px;
+}/*# sourceMappingURL=privacyPolicy.css.map */

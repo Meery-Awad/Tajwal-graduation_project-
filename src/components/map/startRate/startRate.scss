@@ -1,0 +1,118 @@
+// Basic Config:
+$starSize: 17px;
+$spacing: $starSize*10;
+
+// Colors:
+$starColor-unvoted: rgb(179, 178, 178);
+$starColor-voted: #FC0;
+$starColor-active: #F90;
+
+.wrapper {
+  position: absolute;
+  display: inline-block;
+  border: none;
+  font-size: 1.1em;
+  
+  
+}
+
+.wrapper input {
+  border: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  opacity: 0;
+}
+
+.wrapper label {
+  position: relative;
+  float: right;
+  color: red;
+}
+.wrapper label:hover {
+  cursor: pointer;
+}
+
+.wrapper label:before {
+  margin:  1px;
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 1.2em;
+  // color: $starColor-unvoted;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+    text-shadow: 0px 1px 2px rgb(205, 205, 205);
+}
+
+.wrapper input:checked ~ .wrapper label:before  {
+    // color: $starColor-voted;  
+    // animation: pop 0.7s;
+    cursor: pointer;
+  
+}
+
+
+
+.wrapper label:hover ~ .wrapper label:before{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+// $totalStars: 10;
+// $starsDelay: 1.1s;
+
+// @for $i from -1 through $totalStars{
+//   label:nth-child(#{$i}){
+//     animation: starsDisplay 1.5s;
+//     animation-delay: $starsDelay*$i;
+//     animation-fill-mode: backwards;
+//   }
+// }
+
+
+// Animations:
+
+// @keyframes labelDisplay{
+//   from{opacity:0; transform: translate(50px,0);}
+//   to{opacity: 1; transform: translate(0,0);}
+// }
+
+// @keyframes starsDisplay{
+//   from{opacity:0; transform: scale(1.5) rotate(45deg) translate(-25px,-10px);}
+//   to{opacity: 1; transform: scale(1) rotate(0) translate(0,0);}
+// }
+
+// @keyframes firstLabelDisplay{
+//   from{opacity:0;}
+//   to{opacity:1;}
+// }
+
+// @keyframes pop {
+  
+//   0% {
+//     opacity: 0.9;
+//     transform: scale(0);
+  
+
+//   }
+//   25% {
+//     opacity: 1;
+//     transform: scale(1);
+  
+  
+// }
+  
+//   100% {
+//     opacity: 0.9;
+//     transform: scale(1.2);
+ 
+  
+// }
+//   }
+

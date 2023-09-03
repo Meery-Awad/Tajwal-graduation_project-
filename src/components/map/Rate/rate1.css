@@ -1,0 +1,316 @@
+.infoLoc {
+  text-align: right;
+  padding-right: 62px;
+  padding-top: 5px;
+  font-size: 12px;
+  color: #525151;
+  justify-items: right;
+  z-index: 1;
+}
+
+.circle {
+  position: absolute;
+  margin: 2% 82.6%;
+  width: 39px;
+  height: 42px;
+  border: 2px solid #47A851;
+  border-radius: 50%;
+  padding: 0px;
+  border-left: none;
+}
+
+.infoLoc.photoOfLoc {
+  position: absolute;
+  margin: 3% 82.5%;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.infoLoc.nameOfLoc {
+  font-family: Roboto;
+  color: rgb(29, 29, 29);
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+.infoLoc.typeOfLoc {
+  padding-top: 2px;
+}
+
+.infoLoc.placeOfLoc {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  direction: rtl;
+  cursor: pointer;
+  padding-right: 77px;
+}
+
+.placeOfLocHover {
+  position: fixed;
+  background-color: #c8c8c8;
+  width: 20%;
+  white-space: pre-wrap;
+  text-align: right;
+  direction: rtl;
+  border-radius: 13px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  border-bottom-right-radius: 0px;
+  margin-left: 0px;
+  display: none;
+}
+
+.info.fa.fa-map-marker {
+  position: absolute;
+  margin-top: -20.3px;
+  margin-left: 215px;
+  color: #47A851;
+}
+
+.info.fa.fa-cutlery {
+  color: #525151;
+  padding-right: 4px;
+  padding-top: 3px;
+  width: 15px;
+  height: 15px;
+  font-size: 1px;
+  border-radius: 55px;
+  padding-left: 8px;
+}
+
+.info.fa.fa-map-marker {
+  width: 15px;
+  height: 15px;
+  font-size: 1px;
+  border-radius: 55px;
+  padding-left: 8px;
+  font-size: 15px;
+}
+
+.info.fa.fa-clock-o {
+  width: 15px;
+  height: 15px;
+  font-size: 1px;
+  border-radius: 55px;
+  padding-left: 8px;
+  font-size: 13px;
+}
+
+.Follow {
+  position: absolute;
+  margin: -29.5% 10%;
+  font-size: 9px;
+  color: #525151;
+  border: 1.5px solid #47A851;
+  width: 80px;
+  height: 16px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 6px 9px -5px rgba(0, 0, 0, 0.578);
+}
+
+.Follow:hover {
+  box-shadow: 0px 6px 10px -2px rgba(0, 0, 0, 0.578);
+}
+
+.goToInfo {
+  display: none;
+}
+
+.wrapper {
+  position: absolute;
+  display: inline-block;
+  border: none;
+  font-size: 1.1em;
+}
+
+.wrapper input {
+  border: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  opacity: 0;
+}
+
+.wrapper label {
+  position: relative;
+  float: right;
+  color: red;
+}
+
+.wrapper label:hover {
+  cursor: pointer;
+}
+
+.wrapper label:before {
+  margin: 1px;
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 1.2em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+  text-shadow: 0px 1px 2px rgb(205, 205, 205);
+}
+
+.wrapper input:checked ~ .wrapper label:before {
+  cursor: pointer;
+}
+
+.wrapper label:hover ~ .wrapper label:before {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.Rates1 {
+  text-align: center;
+  width: 100%;
+  height: 455px;
+  background-color: white;
+  margin-top: 3%;
+  z-index: 1;
+}
+
+.starImg {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 10%;
+}
+
+.BarChartImg {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 10%;
+  top: 19%;
+}
+
+.rate1 {
+  border: 1px solid #47A851;
+  padding: 5px 0px;
+  height: 35px;
+  width: 46%;
+  font-size: 1em;
+}
+
+.rates1 {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.rates {
+  position: relative;
+  margin-right: 17px;
+  top: 2.5px;
+}
+
+.contS {
+  display: flex;
+  direction: rtl;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+
+.stars1 {
+  position: relative;
+  direction: ltr;
+  margin-right: 6%;
+}
+
+.stars1 .rates.allnum {
+  color: rgb(88, 88, 88);
+  margin-left: 2px;
+  margin-top: 1px;
+  font-size: 19px;
+}
+
+.stars1Cont .rates.of5 {
+  direction: ltr;
+  display: flex;
+  margin-left: 30%;
+  font-size: 1.5em;
+}
+
+.stars1Cont .stars2 {
+  position: relative;
+  margin-top: 3%;
+}
+
+.stars1Cont .fas.fa-star {
+  color: #FC0;
+  font-size: 35px;
+  margin-right: 3.1%;
+  margin-top: -0.7%;
+}
+
+.stars1Cont .num {
+  position: absolute;
+  color: black;
+  font-size: 23px;
+  margin-left: 3.6%;
+  margin-top: -0.3%;
+}
+
+.progress {
+  width: 60%;
+  height: 19px;
+  margin-top: 10px;
+}
+
+.Flex {
+  display: flex;
+  margin-top: 28px;
+  margin-left: 18%;
+}
+
+.dropDown1 {
+  position: relative;
+  margin-right: -69%;
+  margin-top: 0.1%;
+  width: 150px;
+  height: 25px;
+  padding-left: 65px;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  color: #333;
+  font-size: 1em;
+  background-color: rgb(236, 235, 235);
+}
+
+.yearMenu1.dropdown-menu.show {
+  direction: rtl;
+  text-align: right;
+  font-size: 1em;
+  max-height: 240px;
+  margin-left: -5px;
+  margin-top: 5px;
+  padding: 0px;
+  max-width: 10px;
+}
+
+.FollowerNum {
+  direction: rtl;
+  text-align: right;
+  margin-right: 6%;
+  margin-top: 3.3%;
+  display: flex;
+}
+
+.chartCont .h4 {
+  margin: 1px;
+}/*# sourceMappingURL=rate1.css.map */

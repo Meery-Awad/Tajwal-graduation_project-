@@ -1,0 +1,320 @@
+.infoLoc {
+  text-align: right;
+  padding-right: 62px;
+  padding-top: 5px;
+  font-size: 12px;
+  color: #525151;
+  justify-items: right;
+  z-index: 1;
+}
+
+.circle {
+  position: absolute;
+  margin: 2% 82.6%;
+  width: 39px;
+  height: 42px;
+  border: 2px solid #47A851;
+  border-radius: 50%;
+  padding: 0px;
+  border-left: none;
+}
+
+.infoLoc.photoOfLoc {
+  position: absolute;
+  margin: 3% 82.5%;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.infoLoc.nameOfLoc {
+  font-family: Roboto;
+  color: rgb(29, 29, 29);
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 2%;
+  cursor: pointer;
+}
+
+.infoLoc.typeOfLoc {
+  padding-top: 2px;
+}
+
+.infoLoc.placeOfLoc {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  direction: rtl;
+  cursor: pointer;
+  padding-right: 77px;
+}
+
+.placeOfLocHover {
+  position: fixed;
+  background-color: #c8c8c8;
+  width: 20%;
+  white-space: pre-wrap;
+  text-align: right;
+  direction: rtl;
+  border-radius: 13px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  border-bottom-right-radius: 0px;
+  margin-left: 0px;
+  display: none;
+}
+
+.info.fa.fa-map-marker {
+  position: absolute;
+  margin-top: -20.3px;
+  margin-left: 215px;
+  color: #47A851;
+}
+
+.info.fa.fa-cutlery {
+  color: #525151;
+  padding-right: 4px;
+  padding-top: 3px;
+  width: 15px;
+  height: 15px;
+  font-size: 1px;
+  border-radius: 55px;
+  padding-left: 8px;
+}
+
+.info.fa.fa-map-marker {
+  width: 15px;
+  height: 15px;
+  font-size: 1px;
+  border-radius: 55px;
+  padding-left: 8px;
+  font-size: 15px;
+}
+
+.info.fa.fa-clock-o {
+  width: 15px;
+  height: 15px;
+  font-size: 1px;
+  border-radius: 55px;
+  padding-left: 8px;
+  font-size: 13px;
+}
+
+.Follow {
+  position: absolute;
+  margin: -29.5% 10%;
+  font-size: 9px;
+  color: #525151;
+  border: 1.5px solid #47A851;
+  width: 80px;
+  height: 16px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 6px 9px -5px rgba(0, 0, 0, 0.578);
+}
+
+.Follow:hover {
+  box-shadow: 0px 6px 10px -2px rgba(0, 0, 0, 0.578);
+}
+
+.goToInfo {
+  display: none;
+}
+
+.Fltera {
+  z-index: 1;
+}
+
+.GoogleMap {
+  position: absolute;
+  margin-left: 0%;
+  margin-top: -19px;
+  width: 100%;
+  height: 550px;
+  z-index: 0;
+}
+
+.Filter-list {
+  direction: rtl;
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 78.2%;
+  z-index: 1;
+  color: #787878;
+  background-color: rgb(36, 36, 36);
+  width: 295px;
+  cursor: pointer;
+  z-index: 0;
+  height: 530px;
+}
+
+.Filter-item {
+  display: flex;
+  margin-top: 5px;
+  color: rgb(228, 226, 226);
+  font-size: 1em;
+}
+
+.Filter-list a {
+  color: #787878;
+}
+
+.Filter-list a:hover, .Filter-list a:focus {
+  color: #787878;
+}
+
+.Filter-item .linkApp {
+  position: absolute;
+  color: #8cb590;
+  margin-top: 5px;
+}
+
+.Filtra {
+  display: inline-block;
+  font-size: 1.3em;
+  margin: 10px 38px;
+  color: rgb(228, 226, 226);
+  border-bottom: 0.1em solid #47A851;
+  padding: 0px;
+  padding-bottom: 15px;
+  width: auto;
+}
+
+.Filter1 {
+  display: flex;
+}
+
+.product {
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+.shorPath {
+  margin-left: -14px;
+  margin-top: 8px;
+}
+
+.rate {
+  margin-left: -4px;
+}
+
+.chat {
+  margin-left: 10px;
+}
+
+.Filter-list .fa, .fas {
+  margin-left: 13px;
+}
+
+.resAndclo {
+  width: 500px;
+  margin: 22px 70px;
+  font-size: 13px;
+  color: rgb(228, 226, 226);
+}
+
+.fil1.fas.fa-tshirt, .fil1.fa.fa-cutlery {
+  background-color: #47A851;
+  color: rgb(228, 226, 226);
+  font-size: 15px;
+  width: 27px;
+  height: 27px;
+  border-radius: 50px;
+  padding: 7px 4px;
+  box-shadow: 2px 2px 3px #888;
+}
+
+.fil1.fas.fa-tshirt:hover, .fil1.fa.fa-cutlery:hover {
+  box-shadow: 2px 2px 10px #888;
+  cursor: pointer;
+}
+
+.fil1.fa.fa-cutlery {
+  padding: 7px;
+}
+
+.fil1.fas.fa-tshirt {
+  margin-right: 40px;
+}
+
+.clo {
+  margin-right: 45px;
+}
+
+.res {
+  margin-right: -5px;
+}
+
+.dropDown {
+  margin: 10px 30px;
+  width: 200px;
+  height: 20px;
+  padding-left: 175px;
+  padding-top: 0px;
+  color: #8cb590;
+}
+
+.theProd {
+  position: absolute;
+  font-size: 13px;
+  right: 60px;
+  top: 10px;
+  color: rgb(26, 25, 25);
+}
+
+.prodDis {
+  direction: ltr;
+}
+
+.menu {
+  direction: rtl;
+  text-align: right;
+  font-size: 13px;
+  max-height: 240px;
+  max-width: 100px;
+}
+
+.menu-item {
+  margin-top: -2px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.menu-item:hover {
+  background-position: right bottom;
+  font-size: 13.5px;
+  overflow: visible;
+  border-radius: 5px;
+  width: auto;
+  white-space: nowrap;
+}
+
+.menu .fa, .menu .fas {
+  margin-top: 10px;
+}
+
+.location {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: 20%;
+  position: absolute;
+  background-color: #47A851;
+}
+
+.prodNumber {
+  position: absolute;
+  left: 5%;
+  margin-top: 4.2%;
+}
+
+.prodType {
+  position: relative;
+  margin-right: -4px;
+}/*# sourceMappingURL=map.css.map */

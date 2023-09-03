@@ -1,0 +1,216 @@
+@import '../map/infoOfLocation/infOfLoc.scss';
+@import '../map/Shkoa/shkoa.scss';
+
+.shkoaNavLink{
+    direction: rtl;
+    width:100%;
+    height: 410px;
+    display: flex;
+}
+.shkoaNavLink .allShkoa{
+    position: relative;
+    max-height: 410px;
+    overflow: auto;
+background-color: #e9e7e7;
+transition: ease-out 0.6s;
+
+}
+.shkoaNavLink .selectShkoa{
+    background-color: rgb(250, 250, 250);
+    transition: ease-out 0.6s;
+   
+
+}
+.shkoaNavLink .selectMess{
+    margin-top: 10px;
+    max-height: 67%;
+    overflow: auto;
+}
+.shkoaNavLink .messStore{
+    display: flex;
+    background-color: #fafafa;
+    margin: 15px 15px 15px 10px;
+    box-shadow: 2px 3px 3px rgb(167, 166, 166);
+    border: 1px solid rgb(182, 181, 181);
+    height: 75px;
+    cursor: pointer;
+}
+.shkoaNavLink .messStore:hover{
+    box-shadow: 2px 3px 3px rgb(116, 115, 115);
+}
+.shkoaNavLink .ImgStore{
+width:65px;
+height: 65px;
+border-radius: 50%;
+margin-top: 5px;
+}
+.shkoaNavLink .messTime{
+  position: absolute;
+   right: 78%;
+   margin-top: 7px;
+   color:$color-time;
+   font-size: 12px;
+}
+.shkoaNavLink .fas.fa-trash{
+    position: absolute;
+    right: 90%;
+    margin-top: 12px;
+    color: $second-color;
+    cursor: pointer;
+}
+.shkoaNavLink .far.fa-trash-alt{
+    margin-right: 5px;
+    color: $color-time;
+    font-size: 12px;
+    cursor: pointer;
+}
+.shkoaNavLink .fa.fa-exclamation{
+    color:rgb(197, 48, 48);
+    border: 2px solid rgb(197, 48, 48);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 57%;
+    cursor: pointer;
+   
+}
+
+.shkoaNavLink .storName{
+  
+   font-weight: 600;
+   font-size: 16.5px;
+ }
+ .shkoaNavLink .mess1,.shkoaNavLink .storLoc{
+  display: inline-block;
+   font-size: 13.5px;
+   color:$color-time;
+   margin-top: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    direction: rtl;
+    width:180px;
+    
+  }
+  .shkoaNavLink .storLoc{
+      margin-top: 4px;
+      margin-right: 12px;
+  }
+  .shkoaNavLink .fa.fa-map-marker{
+      position: absolute;
+      color:$first-color;
+      font-size: 15px;
+      margin-left: 2px;
+      top:120px;
+     
+  }
+
+  .shkoaNavLink .infoMess{
+      margin-right: 8px;
+      margin-top: 10px;
+  }
+  $mrT:10px;
+  .shkoaNavLink .sendMess input{
+   
+    @include sendShkoa;
+    width: 59%;
+    height: 30px;
+    direction: rtl;
+    margin-right: 5px;
+    margin-top: $mrT;
+    padding-right: 10px;
+    color: #333;
+    font-size: 14px;
+}
+.shkoaNavLink input:focus {
+   outline-color: #888
+  }
+.shkoaNavLink button{
+  
+   @include sendShkoa;
+   @include btnHover;
+   background-color: $second-color;
+   margin-top: $mrT;
+   left:16px;
+   width: 6em;
+   height: 30px;
+}
+.shkoaNavLink button:hover{
+  
+    @include btn;
+    border: 1px solid $second-color;
+   box-shadow: 1px 3px 3px rgb(156, 156, 156);
+}
+.shkoaNavLink ::placeholder{
+    font-size: 12px;
+}
+.shkoaNavLink  p{
+  margin-top: 27%;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+}
+.shkoaNavLink .noMess {
+    margin-top: 40%;
+}
+.shkoaNavLink .handIcon{
+    width: 35px;
+    height:35px ;
+  
+   
+}
+.shkoaNavLink .selectMessInfo{
+    display: flex;
+    margin-right: 10px;
+}
+.shkoaNavLink .infoStore1{
+   margin-top: 10px;
+   margin-right: 10px;
+}
+.shkoaNavLink .messCont1{
+    margin-top: 10px;
+    margin-right: 20px;
+    transition: ease-out 0.6s;
+  
+}
+.shkoaNavLink .messCont1:first-child{
+    margin-top:32% ;
+}
+.shkoaNavLink .messItem{
+    max-width: 480px;
+    padding:7px;
+    transition: ease-out 0.6s;
+}
+.shkoaNavLink  ::-webkit-scrollbar {
+    width: 6px;
+    height: 1px;
+    border-left: 0;
+    // background: rgb(121, 120, 120);
+    
+    }
+    .shkoaNavLink ::-webkit-scrollbar-track {
+    background: none;
+    }
+    .shkoaNavLink ::-webkit-scrollbar-thumb {
+    background: $second-color ;
+    border-radius: 0;
+    
+    }
+    .item-fadeout{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        -webkit-animation: fadeout .3s linear forwards;
+        animation: fadeout .3s linear forwards;
+    }
+    @-webkit-keyframes fadeout {
+        0% { opacity: 1; }
+        100% { opacity: 0; }
+    }
+        
+    @keyframes fadeout {
+        0% { opacity: 1; }
+        100% { opacity: 0; }
+    }

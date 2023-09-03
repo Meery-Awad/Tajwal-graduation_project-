@@ -1,0 +1,77 @@
+@import '../map/infoOfLocation/infOfLoc.scss';
+.policy
+{
+text-align: center;
+}
+
+.policy h2 {
+  display: inline;
+  width:auto;
+    color: $first-color;
+    border-bottom: 2px solid $first-color;
+    padding-bottom: 10px;
+  
+  }
+  .policy img{
+    margin-bottom: 25px;
+    display: block;
+    width: 100%;
+    height: 300px;
+    -webkit-filter: blur(1.1px);
+    z-index: 0;
+  }
+  
+  
+  
+  
+  .policy nav {
+    width: 98%;
+    border: 1px solid blue;
+    background-color: #66ccff;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 25px;
+    font-size: 30px;
+  }
+  
+  .policy nav a {
+    text-decoration: none;
+  }
+  
+  .policy section {
+    margin-top: 25px;
+    
+  }
+  
+  .policy article {
+    width: 70%;
+    border: 1px solid $first-color;
+    background-color: #cccccc;
+    padding: 15px;
+    margin: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 22px
+  }
+  
+  .policy p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    
+  }
+  
+  
+  .policy #social{
+    width: 50%;
+    border: 1px solid blue;
+    background-color: #66ccff;
+    padding: 15px;
+    margin: 25%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 30px;
+    
+  }
+  
+  

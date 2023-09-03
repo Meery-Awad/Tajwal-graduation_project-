@@ -1,0 +1,349 @@
+@import '../map/infoOfLocation/infOfLoc.scss';
+@import url(../../Buisness//style//Animate.scss);
+
+.Top10 {
+    //    position: absolute;
+    margin-top: 1.5%;
+    margin-right: 4%;
+    direction: rtl;
+    padding-bottom: 10px;
+
+}
+
+$mrRId: 92%;
+
+.Top10 .idTop10 {
+
+    //  position: absolute;
+
+    width: 25px;
+    font-size: 17px;
+    color: white;
+    padding: 6px;
+    padding-right: 8px;
+    background-color: $first-color;
+    margin-right: $mrRId;
+    margin-top: -10px;
+
+
+
+}
+
+.Top10 .top3id {
+    content: '';
+    width: 0px;
+    height: 0px;
+
+    border: 12.5px solid $first-color;
+    border-bottom: 17px solid transparent;
+    margin-right: $mrRId;
+    margin-top: -14px;
+}
+
+.Top10 .imgTop10 {
+    width: 100px;
+    height: 112px;
+    margin-top: -44px;
+}
+
+.Top10 .topResImg.imgTop10 {
+    margin-top: -25px;
+}
+
+.ContTop10 .starsTop10 {
+    direction: ltr;
+    //  margin-left: 450px;
+    margin-right: -15px;
+    font-size: 14px;
+}
+
+
+
+.ContTop10 .rateTop10 {
+    margin-left: -130px;
+    color: rgb(92, 91, 91);
+}
+
+.ContTop10 .infoTop10 {
+    // position: absolute;
+    margin-top: -112px;
+    margin-right: 130px;
+
+}
+
+.infoTop .fa {
+    margin-left: 4px;
+
+}
+
+.infoTop .fas {
+    margin-left: 4px;
+    margin-right: -2.5px;
+}
+
+.infoTop .fa.fa-cutlery,
+.infoTop .fas.fa-tshirt {
+    color: $icon-color;
+    font-size: 15px;
+}
+
+
+.Top10 .infoTop {
+    margin-top: 2px;
+}
+
+.ContTop10 {
+    padding: 5px 0px;
+    border: 1px solid $first-color;
+    width: 90%;
+    height: 120px;
+    margin-top: 2%;
+    box-shadow: 2px 3px 3px rgb(167, 166, 166);
+    color: #333;
+    font-size: 1em;
+    font-family: $font-item1;
+    cursor: pointer;
+    animation-name: contTop10;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes contTop10 {
+    0% {
+        margin-left: 0px;
+        margin-top: -15px;
+    }
+
+    //   25%  { left:200px; top:0px;}
+    50% {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    //   75%  { left:0px; top:200px;}
+    //   100% { left:0px; top:0px;}
+}
+
+.Top10 .nameTop10 {
+
+    font-weight: bold;
+    font-size: 1.1em;
+
+
+}
+
+.ContTop10:hover {
+    box-shadow: 0 0.1em 0.3em 0.1em rgb(124, 123, 123);
+}
+
+.ContTop10 .starsTop10 {
+    position: absolute;
+    display: flex;
+    direction: ltr;
+    right: 295px;
+    font-size: 1em;
+}
+
+.ContTop10 .StTop10Cont {
+    direction: rtl;
+}
+
+.Top10 .fa.fa-map-marker {
+    color: $first-color;
+    font-size: 18px;
+
+}
+
+.FilterTop10 {
+    color: #333;
+    border-bottom: 1px solid #888;
+    width: 94%;
+    box-shadow: 0px 2px 2px #888;
+    display: flex;
+
+}
+
+.filtTop10 {
+    font-size: 1.15em;
+    margin-top: -3px;
+}
+
+.Top10 .bi-filter {
+    font-size: 1.7em;
+    margin-right: 7px;
+}
+
+.Top10 .dropDownFilterTop10 {
+    background-color: transparent;
+
+    border-color: transparent;
+    outline: none;
+    color: #333;
+
+
+}
+
+.Top10 .dropDownFilterTop10:focus,
+.Top10 .dropDownFilterTop10:active {
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+
+
+}
+
+.Top10 .show>.btn-secondary.dropdown-toggle,
+.Top10 .btn-secondary.dropdown-toggle:focus,
+.Top10 .btn-secondary.dropdown-toggle:active {
+    color: #333;
+    background-color: transparent;
+    border: none;
+}
+
+.Top10 .btn-secondary.dropdown-toggle:focus,
+.Top10 .btn-secondary.dropdown-toggle:active {
+    box-shadow: none;
+    background-color: transparent;
+    color: #333;
+    border: none;
+
+
+}
+
+.toggle.btn-secondary.dropdown-toggle:focus,
+.toggle.btn-secondary.dropdown-toggle:active {
+    color: #fff;
+    background-color: #565e64;
+    border: none;
+}
+
+.top10Filter {
+    display: flex;
+    padding: 5px;
+    margin: 3% 8%;
+    direction: rtl;
+}
+
+.menuFilterTop10 {
+    border: 1.8px solid $first-color;
+    width: 350px;
+    height: 170px;
+    margin-right: 23%;
+    border-radius: 30px 0px 30px 30px;
+    box-shadow: 1px 2px 2px #888;
+    direction: rtl;
+}
+
+.menuFiliterTop10-2 {
+
+    border: 1.6px solid $second-color;
+    font-size: 0.85em;
+    font-weight: 200;
+    direction: rtl;
+
+    // background: $dropDown-color;
+
+}
+
+.Top10 .menu-item {
+    text-align: right;
+    direction: rtl;
+    //  padding-bottom: 0px;
+    //  margin-top: 3px;
+
+}
+
+.Top10 .menu-item .fas {
+    margin-left: -1px;
+    margin-right: -1.8px;
+}
+
+.Top10 .menu-item .fas,
+.Top10 .menu-item .fa {
+    color: $icon-color
+}
+
+.select {
+    position: absolute;
+    font-size: 0.9em;
+
+    margin-top: -9px;
+    margin-right: -140px;
+    @include overFlowText();
+    cursor: none;
+
+
+}
+
+$mrToggel: 33%;
+
+.toggle {
+
+    display: flex;
+    height: 22px;
+    width: 170px;
+    padding-top: 9px;
+    padding-right: 150px;
+    margin-right: $mrToggel;
+    color: #333;
+    background-color: $dropDown-color;
+
+}
+
+.cityToggle {
+    margin-right: $mrToggel - 10.5;
+}
+
+.storeToggle {
+    margin-right: $mrToggel - 1;
+}
+
+.Top10 .title {
+    font-size: 1em;
+}
+
+.filterFlex {
+    margin-right: 1%;
+    margin-top: 1%;
+    font-size: 0.9em;
+}
+
+$mrF: 30%;
+
+.filterFlex .street {
+    margin-right: $mrF;
+    margin-left: $mrF;
+}
+
+// Skeleton placeholder
+.skeleton-top-10-load {
+    animation-name: none;
+    display: block;
+    border: solid 1px #eee;
+}
+
+.list-top-10-load {
+    display: none;
+}
+.skeleton-img-top10{
+    width: 100px;
+    height: 112px;
+}
+.skeleton-text-top10{
+    width: 70%;
+    height: .8rem;
+    margin-bottom: .4rem;
+    border-radius: .125rem;
+}
+.skeleton-text-top10:first-child{
+    width: 100%;
+    height: 1.5rem;
+    margin-bottom: .9rem;
+    margin-top: .5rem;
+}
+.skeleton-text-top10:last-child{
+    width: 50%;
+}
